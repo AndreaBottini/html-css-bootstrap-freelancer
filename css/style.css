@@ -1,3 +1,26 @@
 [class*="col-"] {
   /* border: 2px solid blue; */
 }
+
+.header_background {
+  background-color: lightgreen;
+  height: 150px;
+}
+
+.header_logo {
+  wifth: 100%;
+  background-color: yellow;
+  height: 150px;
+  border: 1px solid blue;
+  padding-top: 50px;
+}
+
+.header_nav_right {
+  width:75%;
+  background-color: lightblue;
+  height: 150px;
+  text-align: right;
+  border: 1px solid blue;
+  padding-top: 50px;
+
+}

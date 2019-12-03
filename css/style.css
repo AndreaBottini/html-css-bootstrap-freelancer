@@ -69,3 +69,14 @@ h2 {
   text-align: center;
   padding: 100px;
 }
+
+.footer_background {
+  background-color: grey;
+  height 300px;
+}
+.credits {
+  background-color: pink;
+  height: 150px;
+  margin-top: 10px;
+
+}

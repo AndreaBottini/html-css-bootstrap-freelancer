@@ -62,3 +62,10 @@ h2 {
   /* margin: 0 25%; */
   margin-bottom: 20px;
 }
+
+.contact_box {
+  background-color: purple;
+  height: 300px;
+  text-align: center;
+  padding: 100px;
+}

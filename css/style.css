@@ -34,3 +34,26 @@
   text-align: center;
   padding: 125px 60px;
 }
+
+h2 {
+  text-align: center;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.box_section {
+  width: 30%;
+  background-color: lightblue;
+  height: 200px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.box_section_center {
+  width: 30%;
+  background-color: lightblue;
+  height: 200px;
+  margin: 2% 5%;
+}

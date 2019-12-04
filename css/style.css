@@ -7,6 +7,12 @@ body {
   font-weight: bold;
 }
 
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+  color: white;
+}
+
 .padding_top_80 {
   padding-top: 80px;
 }
@@ -59,24 +65,37 @@ body {
 }
 
 .jumbo_background {
-  background-color: orange;
+  background-color: #1ABC9C;
 }
 
 .avatar_img {
   width: 15%;
+  padding-bottom: 20px;
 }
 
 .line_divider {
   width: 15%;
-  border: 3px solid white;
+  border: 2px solid white;
   border-radius: 5px;
   text-align: center;
+  display: inline-block;
 }
 
+.jumbo_background p {
+  font-size: 1.3em;
+  color: white;
+  padding-top: 20px;
+}
+
+.property_star {
+  font-size: 30px;
+  color: white;
+  padding: 10px;
+  vertical-align: middle;
+}
 
 .height_box {
-  height: 600px;
-  background-color: red;
+  background-color: #1ABC9C;
   text-align: center;
   padding: 50px 0px;
   margin-top: 80px;
@@ -135,9 +154,25 @@ h2 {
     font-size: 1.5em;
   }
 
+  .jumbo_background p {
+    font-size: 1.0em;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
 }
 @media screen and (max-width: 768px) {
   .header_logo {
     font-size: 1.0em;
+  }
+
+  .jumbo_background p {
+    font-size: 0.8em;
+  }
+
+  h1 {
+    font-size: 2.0em;
   }
 }

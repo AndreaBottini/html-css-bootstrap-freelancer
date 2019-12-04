@@ -165,7 +165,7 @@ h2 {
 
 .about_background {
   background-color: #1ABC9C;
-  height: 800px;
+  height: 600px;
   text-align: center;
   margin-top: 60px;
 }
@@ -185,6 +185,10 @@ h2 {
   /* padding-left: 200px; */
   font-size: 18px;
   color: white;
+}
+
+.contact {
+  text-align: center;
 }
 
 .contact_box {

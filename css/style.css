@@ -23,18 +23,18 @@ body {
 }
 
 .header_logo {
-  width: 25%;
+  /* width: 50%; */
   /* background-color: yellow; */
   height: 80px;
   /* border: 1px solid blue; */
   /* padding-top: 50px; */
   color: white;
-  font-size: 25px;
+  font-size: 2em;
   text-transform: uppercase;
 }
 
 .header_nav_right {
-  width:75%;
+  /* width:50%; */
   /* background-color: lightblue; */
   height: 80px;
   text-align: right;
@@ -115,3 +115,15 @@ h2 {
   margin-top: 10px;
 
 }
+
+@media screen and (max-width: 992px) {
+  .header_logo {
+    font-size: 1.5em;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  .header_logo {
+    font-size: 1.0em;
+  }
+  }

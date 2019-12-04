@@ -13,6 +13,13 @@ h1 {
   color: white;
 }
 
+h2 {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  color: #2C3E50;
+}
+
 .padding_top_80 {
   padding-top: 80px;
 }
@@ -81,6 +88,21 @@ h1 {
   display: inline-block;
 }
 
+.line_divider_port {
+  width: 15%;
+  border: 2px solid #2C3E50;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+}
+
+.property_star_port {
+  font-size: 30px;
+  color: #2C3E50;
+  padding: 10px;
+  vertical-align: middle;
+}
+
 .jumbo_background p {
   font-size: 1.3em;
   color: white;
@@ -99,10 +121,6 @@ h1 {
   text-align: center;
   padding: 50px 0px;
   margin-top: 80px;
-}
-
-h2 {
-  text-align: center;
 }
 
 .portfolio {

@@ -20,6 +20,13 @@ h2 {
   color: #2C3E50;
 }
 
+.about_background h2{
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
 .padding_top_80 {
   padding-top: 80px;
 }
@@ -61,14 +68,31 @@ h2 {
   color: white;
 }
 
+.link_menu:hover {
+  text-decoration: none;
+  color: white;
+}
+
 .btn_green {
   color: white;
   background-color: #1ABC9C;
   text-transform: uppercase;
 }
 
-.btn_green:hover {
+.btn_green:hover,
+.btn-green:visited,
+.btn-green:active {
   color: white;
+}
+
+.btn_down {
+  padding: 20px;
+  background-color: #1ABC9C;
+  color: white;
+  border-radius: 15px;
+  border: 2px solid white;
+  font-size: 20px;
+  margin-top: 50px;
 }
 
 .jumbo_background {
@@ -140,16 +164,27 @@ h2 {
 }
 
 .about_background {
-  background-color: yellow;
-  height: 400px;
+  background-color: #1ABC9C;
+  height: 800px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
 }
 
 .information_box {
-  background-color: green;
-  height: 200px;
+  background-color: #1ABC9C;
+  height: 150px;
   text-align: left;
   /* margin: 0 25%; */
+  margin-top: 20px;
   margin-bottom: 20px;
+  /* padding-left: 200px; */
+  font-size: 18px;
+  color: white;
 }
 
 .contact_box {
@@ -185,6 +220,11 @@ h2 {
     font-size: 2.5em;
   }
 
+  .btn_down {
+    margin-top: 250px;
+  }
+
+
 }
 @media screen and (max-width: 768px) {
   .header_logo {
@@ -197,5 +237,9 @@ h2 {
 
   h1 {
     font-size: 2.0em;
+  }
+
+  .btn_down {
+    margin-top: 80px;
   }
 }
